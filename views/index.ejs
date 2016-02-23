@@ -1,5 +1,101 @@
 <%- include partials/header.ejs %>
 
-    <h1><%= title %></h1>
+<!--   First Section - Parallax #1 - Home/Welcome  -->
+    <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="row">
+        <div id="welcome" class="col s10 push-s1 m6 push-m3 l4 z-depth-2">
+          <div id="caa-welcome" class="card z-depth-1">
+            <div class="card-content center amber-text text-lighten-4">
+              <p>Welcome To</p>
+              <span class="card-title center"><%= title %></span>
+            </div>
+            <div class="card-action center">
+              <a class="btn red darken-4 waves-effect waves-blue amber-text text-lighten-4" href="#about">Meet Connor</a>
+            </div>
+          </div>
+        </div>
+      </div>   
+     </div>
+    <div class="parallax"><img src="/images/connor.jpg" alt="Connor Anderson"></div>
+  </div>
+  
+<!--   Second Section - Solid #1 - About Connor  --> 
+  <div class="container">
+    <div id="about" class="section no-pad-bot">
+      <div class="row">
+        <div class="col s12">
+            <h1 class="header center indigo-text text-darken-2 light">About Connor</h1>
+            <p class="center"><img src="/images/myface.jpg" alt="headshot of Connor"></p>
+            <p class="center header col s12 black-text light flow-text">Barrie native, aspiring musician, and ambitious newcomer to the industry of Web Development & Design. As a student enrolled in Georgian College’s Interactive Web Design & Development program, Connor is passionate about arts and technology, and eager to expand his skills in all aspects of today's web. He is ready to gain experience and help you complete your next project.</p>
+            <div class="row center">
+            <a href="/#skills" id="skills-button" class="btn-large waves-effect waves-light red darken-4">View Skills</a>
+            </div>    
+        </div>    
+      </div>
+    </div>
+  </div>
+  
+<!--   Third Section - Parallax #2 - Skills  --> 
+  <div class="parallax-container">
+    <div id="skills" class="section no-pad-bot">
+      <h1 class="header center amber-text text-lighten-4 light">Skills</h1>      
+      <div id="skill-row" class="row z-depth-3">
+        <div class="col s6 m4">
+          <div class="icon-block">
+            <h2 class="center"><img src="images/html.png"></h2>
+            <h5 class="center">HTML5</h5>
+          </div>
+        </div>
+
+        <div class="col s6 m4">
+          <div class="icon-block">
+            <h2 class="center"><img src="images/css.png"></h2>
+            <h5 class="center">CSS3</h5>
+          </div>
+        </div>
+
+        <div class="col s6 m4">
+          <div class="icon-block">
+            <h2 class="center"><img src="images/js.png"></h2>
+            <h5 class="center">JavaScript</h5>
+          </div>
+        </div>
+        <div class="row">
+        <div class="col s6 m4">
+          <div class="icon-block">
+            <h2 class="center"><img src="images/wordpress-logo.png"></h2>
+            <h5 class="center">Wordpress</h5>
+          </div>
+        </div>
+
+        <div class="col s6 m4">
+          <div class="icon-block">
+            <h2 class="center"><img src="images/node.png"></h2>
+            <h5 class="center">Node.js</h5>
+          </div>
+        </div>
+
+        <div class="col s6 m4">
+          <div class="icon-block">
+            <h2 class="center"><img src="images/materialize.png"></h2>
+            <h5 class="center">Materialze CSS</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="/images/working-hard.jpg" alt="Hands typing on a laptop"></div>
+  </div>
+  
+  <!--   Fourth Section - Solid #2 - Projects --> 
+  <div class="container">
+    <div id="projects" class="section no-pad-bot">
+      <div class="row">
+        <div class="col s12">
+            <h1 class="header center indigo-text text-darken-2 light">Projects</h1>
+        </div>    
+      </div>
+    </div>
+  </div>
     
 <%- include partials/footer.ejs %>
