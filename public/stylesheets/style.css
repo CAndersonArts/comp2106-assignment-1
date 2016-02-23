@@ -1,8 +1,29 @@
 /* Custom Stylesheet */
+@font-face {
+	font-family: IndieRock;  
+	src: url(../font/IndieRock.ttf);  
+	font-weight: normal;  
+}
+
+@font-face {
+	font-family: Futura;  
+	src: url(../font/FuturaMedium.ttf);  
+	font-weight: normal;  
+}
+
+
+body {
+    font-family: Futura, Arial, Helvetica, sans-serif;
+}
 
 nav ul a,
 nav .brand-logo {
   color: #fff;
+  font-family: IndieRock, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+     font-family: IndieRock, Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -39,7 +60,7 @@ p {
   }
   
   #skill-row {
-      background-color: rgba(0,0,0,0.2);
+      background-color: rgba(0,0,0,0.3);
   }
 
 @media only screen and (max-width : 992px) {
@@ -63,4 +84,8 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.card-title {
+    text-shadow: -1px -1px 0px rgba(255,255,255,.9);
 }
